@@ -1,0 +1,347 @@
+@font-face {
+	font-family: 'Rubik';
+	src: local('Rubik'), url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+
+body {
+    font-family:  'Rubik', sans-serif;
+    background-color: #F8F8F8;
+}
+
+.app-dashboard {
+  height: 100%;
+}
+.app-dashboard .info-box {
+  font-size: 22px;
+  margin: 22px 0;
+  background-color: #FFFFFF;
+  padding: 14px 0;
+  border-radius: 10px;
+}
+.app-dashboard .info-box div {
+  border-right: #f3f3f3 1px solid;
+}
+.app-dashboard .info-box div:last-child {
+  border-right: none !important;
+}
+
+.main-menu-area {
+  /*background-color: #192535;*/
+  background-color: #00144a;
+  color: #F8F8F8;
+  border-radius: 0 10px 10px 0;
+}
+
+.main-menu-area,
+.order-detail {
+  min-height: 600px;
+}
+
+.btn.btn-brand {
+  color: #F8F8F8 !important;
+  font-size: 18px;
+}
+
+.main-menu-area .menu {
+  font-size: 16px;
+  padding-left: 12px;
+}
+
+.menu-title.dashboard-menu {
+  color: #FFFFFF !important;
+}
+.dashboard-menu a,
+.dashboard-menu a:active,
+.dashboard-menu a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.dashboard-menu a:hover {
+  color: #21d895;
+  border-bottom: #21d895 2px solid;
+}
+
+.main-menu-area .menu .menu-title {
+  font-weight: 500;
+  color: #32467a;
+}
+
+.main-menu-area .menu .sub-menu ul {
+  font-size: 14px;
+  list-style: none;
+  padding: 0 0 0 8px;
+}
+.main-menu-area .menu .sub-menu ul li {
+  padding: 15px 0;
+  cursor: pointer;
+}
+.main-menu-area .menu .sub-menu ul li a,
+.main-menu-area .menu .sub-menu ul li a:active,
+.main-menu-area .menu .sub-menu ul li a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-menu-area .menu .sub-menu ul li a:hover {
+  color: #21d895;
+  border-bottom: #21d895 2px solid;
+}
+
+
+
+.main-canvas-area {
+  background-color: #F8F8F8;
+}
+
+.main-canvas-area hr {
+  border-bottom: #f0f0f0 1px solid ;
+  margin: 4px 0;
+}
+.main-canvas-area .selected-page {
+  font-size: 28px;
+  padding: 8px 12px;
+}
+.main-canvas-area .avatar-pic img {
+  width: 24px;
+  height: 24px;
+}
+
+.main-canvas-area .user-profile-action div {
+  display: inline-block;
+  margin: 5px 8px;
+}
+
+.app-branding {
+  padding: 25px 0;
+}
+
+.app-branding svg {
+  margin-right: 5px;
+}
+
+.portal-icon {
+  cursor: pointer;
+}
+
+.main-canvas-area .search-form {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+  font-size: 13px;
+}
+
+.search-form {
+  padding: 12px 0;
+}
+
+.footer {
+  font-size: 12px;
+  color: #B8C2CC;
+}
+
+.search-date-picker {
+  position: absolute;
+  z-index: 999;
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+.search-result-info {
+  background-color: #FFFFFF;
+  font-size: 12px;
+}
+.search-result-info select {
+  font-size: 12px;
+}
+.search-date-range,
+.search-date-range:hover,
+.search-date-range:active {
+  background-color: #000000 !important;
+  border: none;
+}
+
+.tbl-result {
+  font-size: 16px;
+}
+.tbl-result th {
+  cursor: pointer;
+}
+
+.order-header {
+  font-size: 14px;
+  border-top: #dddddd 1px solid;
+  border-bottom: #dddddd 2px solid;
+  padding: 8px 0;
+}
+
+.order-detail {
+  background-color: #FFFFFF;
+}
+.order-detail-item {
+  font-size: 14px;
+  padding: 16px 0;
+  border-bottom: #F8F8F8 1px solid;
+}
+.order-detail-item button {
+  font-size: 14px;
+}
+
+.form-update-order {
+  font-size: 14px;
+}
+
+.order-top-menu {
+  font-size: 14px;
+}
+.order-top-menu.nav .nav-item a{
+  color: #00144a;
+}
+.order-top-menu.nav .nav-item .nav-link.selected{
+  border-bottom: #21d895 3px solid;
+}
+.order-top-menu .selected-badge-count {
+  background-color: #21d895 !important;
+}
+
+.order-top-menu .badge-count {
+  background-color: #B2B8C1 !important;
+}
+
+a.dropdown-item {
+  font-size: 14px;
+}
+
+.product-add-action,
+.product-add-action:hover,
+.product-add-action:visited {
+  font-size: 14px;
+  padding: 5px 28px 5px 21px !important;
+  margin-bottom: 8px;
+  background-color: #21d895 !important;
+  border: none;
+}
+
+
+.order-product-details {
+  font-size: 16px;
+  margin: 12px 0 16px 0;
+}
+.order-product-details .value {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.order-category-title span {
+  border-bottom: #21d895 2px solid;
+  display: inline-block;
+  padding: 5px 41px;
+  color: #333333;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.modal-body .nav .nav-link.active {
+  color: #21d895;
+}
+.modal-body .nav .nav-link {
+  color: #B2B8C1;
+}
+.modal-content .btn-primary-action,
+.modal-content .btn-primary-action:active {
+  background-color: #21d895 !important;
+  border: #21d895 1px solid !important;
+  color: #ffffff;
+}
+.agent-notes {
+  max-height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.note-list {
+  border-bottom: #F8F8F8 1px solid;
+}
+.note-list .col {
+  margin-top: 8px ;
+  margin-bottom: 8px;
+}
+
+
+/******helpers********/
+.show-element {
+  display: block !important;
+}
+.hide-element {
+  display: none !important;
+}
+.invisible-element {
+  visibility: hidden;
+}
+.modal-90w {
+  width: 90%;
+  max-width: none !important;
+}
+.modal-50w {
+  width: 50%;
+  max-width: none !important;
+}
+
+/***bootstrap override***/
+.page-link,
+.page-link:hover {
+  color: #1D1D1C;
+}
+.page-item.active .page-link {
+  color: #FFFFFF;
+  background-color: #21d895;
+  border-color: #21d895 ;
+}
+
+.result-header {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.login-wrapper {
+  width: 600px;
+  height: 400px;
+  background-color: #FFFFFF;
+  position: absolute; /*Can also be `fixed`*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 35px;
+}
+
+.logged-user-actions button,
+.logged-user-actions button:active,
+.logged-user-actions button:hover,
+.logged-user-actions button:focus {
+  background-color: #F8F8F8 !important;
+  color: #000000 !important;
+  font-size: 14px;
+  border: none;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.btn-export,
+.btn-export:active,
+.btn-export:hover,
+.btn-export:focus {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  border: #000000 1px solid !important;
+}
